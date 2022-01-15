@@ -1,30 +1,12 @@
 [
-{   "keys" : ["wikipedia", "wikipedia:*", "wikidata", "area"],
-    "values" : {
-        "" : "extra"
-    }
-},
 {
-    "keys" : ["*:prefix", "*:suffix", "name:prefix:*", "name:suffix:*",
-              "name:etymology", "name:signed", "name:botanical", "*:wikidata",
-              "addr:street:name", "addr:street:type"],
-    "values" : {
-        "" : "skip"
-    }
-},
-{
-    "keys" : ["ref", "int_ref", "nat_ref", "reg_ref", "loc_ref", "old_ref",
-              "iata", "icao", "pcode", "ISO3166-2"],
+    "keys" : ["ref"],
     "values" : {
         "" : "ref"
     }
 },
 {
-    "keys" : ["name", "name:*", "int_name", "int_name:*", "nat_name", "nat_name:*",
-              "reg_name", "reg_name:*", "loc_name", "loc_name:*",
-              "old_name", "old_name:*", "alt_name", "alt_name:*", "alt_name_*",
-              "official_name", "official_name:*", "place_name", "place_name:*",
-              "short_name", "short_name:*", "brand"],
+    "keys" : ["name"],
     "values" : {
         "" : "name"
     }
@@ -46,13 +28,6 @@
     "keys" : ["place"],
     "values" : {
         "" : "main"
-    }
-},
-{
-    "keys" : ["country_code", "ISO3166-1", "is_in:country_code", "is_in:country",
-              "addr:country", "addr:country_code"],
-    "values" : {
-        "" : "country"
     }
 },
 {
@@ -86,7 +61,8 @@
         "trunk_link" : "main,with_name",
         "primary_link" : "main,with_name",
         "secondary_link" : "main,with_name",
-        "tertiary_link" : "main,with_name"
+        "tertiary_link" : "main,with_name",
+        "motorway_junction": "main"
     }
 }
 ]
